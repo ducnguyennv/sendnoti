@@ -24,7 +24,7 @@ app.get('/send-message', async (req, res) => {
 
     const response = await axios.post(telegramUrl, {
       chat_id: "5337310687",
-      text: "Xin chào! Đây là tin nhắn từ bot của tôi."
+      text: "Có tin nhắn Spam vui lòng check ngay"
     }, config);
 
     console.log('Telegram Response:', response.data);
